@@ -1,0 +1,37 @@
+WorkInstructions is the main GitHub repository for storing all program, image, instruction, and drawing files related to the Final Assembly Project. If additional file types are added (e.g. sensor calibration, data logs, etc.) they will be labeled here. All existing branches are:
+
+1. "main"
+
+"main" branch stores all files, sorted and named according to convention
+
+2. "ImportHere"
+
+"ImportHere" branch stores all imported files, needed to be locally downloaded and reuploaded to "main" with the correct Git module commands, accessible via the Python file
+
+Contents in "main" are named according to convention:
+Repository Address: \WorkInstructions\main\PartNO\<filename>
+Filename: FileType_PartNO_< Index NO > 
+
+Example: Stored JLG Image 7 for Part NO 7702559
+Repository Address: \WorkInstructions\main\7702559\<AnnotatedImage_7702559_7.png>
+Filename: AnnotatedImage_7702559_7.png
+
+NOTE: Program Files are not located in folders, rather they are exist in "main" with naming convention
+Example: Python file for file uploads [version 1]
+Repository Address: \WorkInstructions\main\<Program_CameraRoll2Repo_1.py>
+Filename: Program_CameraRoll2Repo_1
+
+NOTE: stand alone files, such as instructions or drawings, will be stored without a FileType folder, but lie within the same repository location as the FileType folders (up to PartNO). These files will follow file naming convention. 
+
+EDIT: all program files and important files requiring download to run applications and models will be under DOWNLOADME_<description> folders in "main"
+
+If any questions exist reguarding organization, accessibility of files, or repository structure please contact Mirko Glavan:
+HYDAC Email: mirko.glavan@hydacusa.com
+University Email: bglavan@purdue.edu
+Personal Email: mglavan07@gmail.com
+
+Cell: +1 (980) 290 1443
+
+UPDATE: 
+ALL PROJECT FILES EXIST IN MAIN BRANCH UNDER DOWNLOADME_WorkInstructions_Apps Directory. Note that some program files are hidden that implement ML or have sensitive personal or sensitive company information.
+
